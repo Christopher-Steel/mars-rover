@@ -6,4 +6,4 @@
 # grows and needs them
 set -euo pipefail
 
-PYTHONPATH=$(pwd) poetry run python -m crawler "$@"
+PYTHONPATH=$(pwd) poetry run python -m mars_rover "$@"
